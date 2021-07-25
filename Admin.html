@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Asma Software Engineer | Welcome</title>
+    <link rel="stylesheet" href="TestingCss.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="TestingJS.js"></script>  
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>
+                    Hearing Test
+                </h1>
+            </div>
+            <nav>
+                <div>
+                    <ul>
+                        <li><a href="Front.html"><button type="button" class="button">Home</button></a></li>
+                        <li><a href="Admin.html"><button type="button" class="button">Admin</button></a></li>
+                        <li><a href="Levels.html"><button type="button" class="button">Levels</button></a></li>
+                        <li><a href="Result.html"><button type="button" class="button">Result</button></a></li>
+                    </ul>
+                </div>
+            </nav>           
+        </div>
+
+        <div class="Admin">
+            <p>
+                WELCOME TO ADMINISTRATION LOGIN
+            </p>
+        </div>
+        </header>
+        
+        <body>
+            <div class="container">
+                <h2>Login</h2>
+                <form onsubmit="return chkvalidity()" action="AdminIN.html">
+                    
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                        <span id="message"></span>                   
+                        <br><br>
+                        <label for="pwd">Password:</label>
+                        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+                        <span id="message"></span>
+                        <br><br>
+                    <div class="checkbox">
+                        <label><input type="checkbox" name="remember"> Remember me</label>
+                    </div> 
+                    <a href="AdminIN.html"><button type="submit" value="Submit" class="btn btn-default"></button></a>
+                </form>
+            </div>                    
+        </body>
+       
+        </html>

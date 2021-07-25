@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Asma Software Engineer | Welcome</title>
+    <link rel="stylesheet" href="TestingCss.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="TestingJS.js"></script>
+    <script>
+        function passvalues() {
+            var Name = document.getElementById("txt").value;
+            localStorage.setItem("textvalue", Name);
+            return false
+        }
+    </script>
+</head>
+
+<body>
+    <header>        
+        <div class="container">
+            <div id="branding">
+                <h1>
+                    Hearing Test
+                </h1>
+            </div>
+            <nav>
+                <div>
+                <ul>
+                    <li><a href="Front.html"><button type="button" class="button">Home</button></a></li>
+                    <li><a href="Admin.html"><button type="button" class="button">Admin</button></a></li>
+                    <li><a href="Levels.html"><button type="button" class="button">Levels</button></a></li>
+                    <li><a href="Result.html"><button type="button" class="button">Result</button></a></li>                    
+                                      
+                </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div class="Front">
+            <p>
+                NOTHING IS IMPOSSIBLE IN THIS WORLD
+            </p>
+        </div>
+       
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>
+                TestingSet
+            </h1>
+            <p>
+                Improve Your listening skills
+            </p>
+        </div>
+    </section>
+
+    <section id="newsletter">
+        <div class="container">
+            <h1>
+                Please Enter Your Name Here
+            </h1>
+            <form action="Levels.html">
+                <input type="text" id="txt" />
+                <input type="submit" value="Next" onclick="passvalues();"/>
+            </form>
+           
+        </div>
+    </section>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

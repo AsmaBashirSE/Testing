@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Asma Software Engineer | Welcome</title>
+    <link rel="stylesheet" href="TestingCss.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="TestingJS.js"></script>
+    
+    
+</head>
+
+
+
+<body>
+      
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>
+                    Hearing Test
+                </h1>
+            </div>
+            <nav>
+                <div>
+                    <ul>
+                        <li><a href="Front.html"><button type="button" class="button">Home</button></a></li>
+                        <li><a href="Admin.html"><button type="button" class="button">Admin</button></a></li>
+                        <li><a href="Levels.html"><button type="button" class="button">Levels</button></a></li>
+                        <li><a href="Result.html"><button type="button" class="button">Result</button></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        
+        <div class="Result">
+            <p>
+                IF YOU CAN DREAM IT,
+            </p>
+            <p>
+                YOU CAN DO IT.
+            </p>
+            <p>
+                BEST WISHES FOR YOUR
+            </p>
+            <p>                
+                BRIGHT FUTURE
+            </p>
+        </div>
+
+        </header>
+      
+        <br>
+        <br>
+<div class="output">
+<body>
+WELCOME... <span id="result"></span>
+    <script>
+        document.getElementById("result").innerHTML = localStorage.getItem("textvalue");
+    </script>
+
+</body>
+</div>
+
+
